@@ -14,9 +14,8 @@ const routes = {
   "k8s.rok-registry.cloudns.ch": "https://registry.k8s.io",
   "ghcr.rok-registry.cloudns.ch": "https://ghcr.io",
   "cloudsmith.rok-registry.cloudns.ch": "https://docker.cloudsmith.io",
-
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.rok-registry.cloudns.ch": dockerHub,
 };
 
 function routeByHosts(host) {
